@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jockey One', sans-serif;
+    background-image: url('Resource/3_youtube.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+
+.woodworking-page {
+    padding: 30px;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    height: 40px;
+    color: white;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+header p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 700px;
+}
+
+.tutorials {
+    margin-top: 20px;
+}
+
+.tutorials h2 {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.tutorial-videos {
+    display: flex;
+    justify-content: space-betweean;
+}
+
+.video-card {
+    position: absolute;
+    bottom: -200px;
+    left: 20px;
+}
+.video-card-1 {
+    position: absolute;
+    bottom: -200px;
+    left: 320px;
+}
+.video-card-2 {
+    position: absolute;
+    bottom: -200px;
+    left: 700px;
+}
+.video-card img, .video-card-1 img, .video-card-2 img {
+    height: 200px;
+    border-radius: 30px;
+
+}

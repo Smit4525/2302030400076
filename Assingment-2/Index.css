@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jockey One', sans-serif;
+    height: 100vh;
+    background-image: url('Resource/1st.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: rgba(140, 74, 0, 0.9);  /* Similar brownish tone */
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffd700;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.social-login img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}

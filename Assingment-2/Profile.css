@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jockey One', sans-serif;
+    background-image: url('Resource/1st.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: white;
+}
+.back-button img{
+    width: 50px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-icon img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.user-info p {
+    font-size: 1rem;
+}
+
+.sign-out {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.sign-out a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.sign-out a:hover {
+    text-decoration: underline;
+}
